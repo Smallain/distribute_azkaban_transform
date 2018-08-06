@@ -1,0 +1,1089 @@
+[source]
+
+url_source_0000=jdbc:mysql://rr-2zecp66q08l4t0wsi.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0000
+port_source_0000=3306
+user_source_0000=bigdata_read
+password_source_0000='om!DvcDd83^XMFWl'
+database_source_0000=trade_order_umgs_0000
+table_source_0000=tb_order_promotion
+
+[target]
+database_target_0000=odata
+table_target_0000=ods_lego_order_tb_order_promotion
+
+database_target_cream_0000=odata_incr
+table_target_cream_0000=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0000=0
+querry_sql_0000= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0000=0
+a_querry_sql_0000=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0000=" where ea_modify_tm is not null "
+a_and_sql_0000=" and substr(ea_modify_tm@1@10) < "
+union_sql_0000=" union all "
+b_querry_sql_0000=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0000=" where ea_modify_tm is null "
+b_and_sql_0000=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0001=jdbc:mysql://rr-2zecp66q08l4t0wsi.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0001
+port_source_0001=3306
+user_source_0001=bigdata_read
+password_source_0001='om!DvcDd83^XMFWl'
+database_source_0001=trade_order_umgs_0001
+table_source_0001=tb_order_promotion
+
+[target]
+database_target_0001=odata
+table_target_0001=ods_lego_order_tb_order_promotion
+
+database_target_cream_0001=odata_incr
+table_target_cream_0001=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0001=0
+querry_sql_0001= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0001=0
+a_querry_sql_0001=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0001=" where ea_modify_tm is not null "
+a_and_sql_0001=" and substr(ea_modify_tm@1@10) < "
+union_sql_0001=" union all "
+b_querry_sql_0001=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0001=" where ea_modify_tm is null "
+b_and_sql_0001=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0002=jdbc:mysql://rr-2zecp66q08l4t0wsi.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0002
+port_source_0002=3306
+user_source_0002=bigdata_read
+password_source_0002='om!DvcDd83^XMFWl'
+database_source_0002=trade_order_umgs_0002
+table_source_0002=tb_order_promotion
+
+[target]
+database_target_0002=odata
+table_target_0002=ods_lego_order_tb_order_promotion
+
+database_target_cream_0002=odata_incr
+table_target_cream_0002=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0002=0
+querry_sql_0002= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0002=0
+a_querry_sql_0002=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0002=" where ea_modify_tm is not null "
+a_and_sql_0002=" and substr(ea_modify_tm@1@10) < "
+union_sql_0002=" union all "
+b_querry_sql_0002=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0002=" where ea_modify_tm is null "
+b_and_sql_0002=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0003=jdbc:mysql://rr-2zecp66q08l4t0wsi.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0003
+port_source_0003=3306
+user_source_0003=bigdata_read
+password_source_0003='om!DvcDd83^XMFWl'
+database_source_0003=trade_order_umgs_0003
+table_source_0003=tb_order_promotion
+
+[target]
+database_target_0003=odata
+table_target_0003=ods_lego_order_tb_order_promotion
+
+database_target_cream_0003=odata_incr
+table_target_cream_0003=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0003=0
+querry_sql_0003= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0003=0
+a_querry_sql_0003=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0003=" where ea_modify_tm is not null "
+a_and_sql_0003=" and substr(ea_modify_tm@1@10) < "
+union_sql_0003=" union all "
+b_querry_sql_0003=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0003=" where ea_modify_tm is null "
+b_and_sql_0003=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0004=jdbc:mysql://rr-2zecp66q08l4t0wsi.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0004
+port_source_0004=3306
+user_source_0004=bigdata_read
+password_source_0004='om!DvcDd83^XMFWl'
+database_source_0004=trade_order_umgs_0004
+table_source_0004=tb_order_promotion
+
+[target]
+database_target_0004=odata
+table_target_0004=ods_lego_order_tb_order_promotion
+
+database_target_cream_0004=odata_incr
+table_target_cream_0004=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0004=0
+querry_sql_0004= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0004=0
+a_querry_sql_0004=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0004=" where ea_modify_tm is not null "
+a_and_sql_0004=" and substr(ea_modify_tm@1@10) < "
+union_sql_0004=" union all "
+b_querry_sql_0004=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0004=" where ea_modify_tm is null "
+b_and_sql_0004=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0005=jdbc:mysql://rr-2zecp66q08l4t0wsi.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0005
+port_source_0005=3306
+user_source_0005=bigdata_read
+password_source_0005='om!DvcDd83^XMFWl'
+database_source_0005=trade_order_umgs_0005
+table_source_0005=tb_order_promotion
+
+[target]
+database_target_0005=odata
+table_target_0005=ods_lego_order_tb_order_promotion
+
+database_target_cream_0005=odata_incr
+table_target_cream_0005=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0005=0
+querry_sql_0005= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0005=0
+a_querry_sql_0005=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0005=" where ea_modify_tm is not null "
+a_and_sql_0005=" and substr(ea_modify_tm@1@10) < "
+union_sql_0005=" union all "
+b_querry_sql_0005=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0005=" where ea_modify_tm is null "
+b_and_sql_0005=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0006=jdbc:mysql://rr-2zecp66q08l4t0wsi.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0006
+port_source_0006=3306
+user_source_0006=bigdata_read
+password_source_0006='om!DvcDd83^XMFWl'
+database_source_0006=trade_order_umgs_0006
+table_source_0006=tb_order_promotion
+
+[target]
+database_target_0006=odata
+table_target_0006=ods_lego_order_tb_order_promotion
+
+database_target_cream_0006=odata_incr
+table_target_cream_0006=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0006=0
+querry_sql_0006= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0006=0
+a_querry_sql_0006=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0006=" where ea_modify_tm is not null "
+a_and_sql_0006=" and substr(ea_modify_tm@1@10) < "
+union_sql_0006=" union all "
+b_querry_sql_0006=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0006=" where ea_modify_tm is null "
+b_and_sql_0006=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0007=jdbc:mysql://rr-2zecp66q08l4t0wsi.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0007
+port_source_0007=3306
+user_source_0007=bigdata_read
+password_source_0007='om!DvcDd83^XMFWl'
+database_source_0007=trade_order_umgs_0007
+table_source_0007=tb_order_promotion
+
+[target]
+database_target_0007=odata
+table_target_0007=ods_lego_order_tb_order_promotion
+
+database_target_cream_0007=odata_incr
+table_target_cream_0007=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0007=0
+querry_sql_0007= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0007=0
+a_querry_sql_0007=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0007=" where ea_modify_tm is not null "
+a_and_sql_0007=" and substr(ea_modify_tm@1@10) < "
+union_sql_0007=" union all "
+b_querry_sql_0007=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0007=" where ea_modify_tm is null "
+b_and_sql_0007=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0008=jdbc:mysql://rr-2zerg3tj19onwm83g.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0008
+port_source_0008=3306
+user_source_0008=bigdata_read
+password_source_0008='om!DvcDd83^XMFWl'
+database_source_0008=trade_order_umgs_0001
+table_source_0008=tb_order_promotion
+
+[target]
+database_target_0008=odata
+table_target_0008=ods_lego_order_tb_order_promotion
+
+database_target_cream_0008=odata_incr
+table_target_cream_0008=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0008=0
+querry_sql_0008= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0008=0
+a_querry_sql_0008=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0008=" where ea_modify_tm is not null "
+a_and_sql_0008=" and substr(ea_modify_tm@1@10) < "
+union_sql_0008=" union all "
+b_querry_sql_0008=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0008=" where ea_modify_tm is null "
+b_and_sql_0008=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0009=jdbc:mysql://rr-2zerg3tj19onwm83g.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0009
+port_source_0009=3306
+user_source_0009=bigdata_read
+password_source_0009='om!DvcDd83^XMFWl'
+database_source_0009=trade_order_umgs_0009
+table_source_0009=tb_order_promotion
+
+[target]
+database_target_0009=odata
+table_target_0009=ods_lego_order_tb_order_promotion
+
+database_target_cream_0009=odata_incr
+table_target_cream_0009=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0009=0
+querry_sql_0009= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0009=0
+a_querry_sql_0009=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0009=" where ea_modify_tm is not null "
+a_and_sql_0009=" and substr(ea_modify_tm@1@10) < "
+union_sql_0009=" union all "
+b_querry_sql_0009=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0009=" where ea_modify_tm is null "
+b_and_sql_0009=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0010=jdbc:mysql://rr-2zerg3tj19onwm83g.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0010
+port_source_0010=3306
+user_source_0010=bigdata_read
+password_source_0010='om!DvcDd83^XMFWl'
+database_source_0010=trade_order_umgs_0010
+table_source_0010=tb_order_promotion
+
+[target]
+database_target_0010=odata
+table_target_0010=ods_lego_order_tb_order_promotion
+
+database_target_cream_0010=odata_incr
+table_target_cream_0010=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0010=0
+querry_sql_0010= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0010=0
+a_querry_sql_0010=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0010=" where ea_modify_tm is not null "
+a_and_sql_0010=" and substr(ea_modify_tm@1@10) < "
+union_sql_0010=" union all "
+b_querry_sql_0010=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0010=" where ea_modify_tm is null "
+b_and_sql_0010=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0011=jdbc:mysql://rr-2zerg3tj19onwm83g.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0011
+port_source_0011=3306
+user_source_0011=bigdata_read
+password_source_0011='om!DvcDd83^XMFWl'
+database_source_0011=trade_order_umgs_0011
+table_source_0011=tb_order_promotion
+
+[target]
+database_target_0011=odata
+table_target_0011=ods_lego_order_tb_order_promotion
+
+database_target_cream_0011=odata_incr
+table_target_cream_0011=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0011=0
+querry_sql_0011= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0011=0
+a_querry_sql_0011=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0011=" where ea_modify_tm is not null "
+a_and_sql_0011=" and substr(ea_modify_tm@1@10) < "
+union_sql_0011=" union all "
+b_querry_sql_0011=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0011=" where ea_modify_tm is null "
+b_and_sql_0011=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0012=jdbc:mysql://rr-2zerg3tj19onwm83g.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0012
+port_source_0012=3306
+user_source_0012=bigdata_read
+password_source_0012='om!DvcDd83^XMFWl'
+database_source_0012=trade_order_umgs_0012
+table_source_0012=tb_order_promotion
+
+[target]
+database_target_0012=odata
+table_target_0012=ods_lego_order_tb_order_promotion
+
+database_target_cream_0012=odata_incr
+table_target_cream_0012=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0012=0
+querry_sql_0012= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0012=0
+a_querry_sql_0012=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0012=" where ea_modify_tm is not null "
+a_and_sql_0012=" and substr(ea_modify_tm@1@10) < "
+union_sql_0012=" union all "
+b_querry_sql_0012=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0012=" where ea_modify_tm is null "
+b_and_sql_0012=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0013=jdbc:mysql://rr-2zerg3tj19onwm83g.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0013
+port_source_0013=3306
+user_source_0013=bigdata_read
+password_source_0013='om!DvcDd83^XMFWl'
+database_source_0013=trade_order_umgs_0013
+table_source_0013=tb_order_promotion
+
+[target]
+database_target_0013=odata
+table_target_0013=ods_lego_order_tb_order_promotion
+
+database_target_cream_0013=odata_incr
+table_target_cream_0013=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0013=0
+querry_sql_0013= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0013=0
+a_querry_sql_0013=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0013=" where ea_modify_tm is not null "
+a_and_sql_0013=" and substr(ea_modify_tm@1@10) < "
+union_sql_0013=" union all "
+b_querry_sql_0013=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0013=" where ea_modify_tm is null "
+b_and_sql_0013=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0014=jdbc:mysql://rr-2zerg3tj19onwm83g.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0014
+port_source_0014=3306
+user_source_0014=bigdata_read
+password_source_0014='om!DvcDd83^XMFWl'
+database_source_0014=trade_order_umgs_0014
+table_source_0014=tb_order_promotion
+
+[target]
+database_target_0014=odata
+table_target_0014=ods_lego_order_tb_order_promotion
+
+database_target_cream_0014=odata_incr
+table_target_cream_0014=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0014=0
+querry_sql_0014= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0014=0
+a_querry_sql_0014=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0014=" where ea_modify_tm is not null "
+a_and_sql_0014=" and substr(ea_modify_tm@1@10) < "
+union_sql_0014=" union all "
+b_querry_sql_0014=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0014=" where ea_modify_tm is null "
+b_and_sql_0014=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0015=jdbc:mysql://rr-2zerg3tj19onwm83g.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0015
+port_source_0015=3306
+user_source_0015=bigdata_read
+password_source_0015='om!DvcDd83^XMFWl'
+database_source_0015=trade_order_umgs_0015
+table_source_0015=tb_order_promotion
+
+[target]
+database_target_0015=odata
+table_target_0015=ods_lego_order_tb_order_promotion
+
+database_target_cream_0015=odata_incr
+table_target_cream_0015=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0015=0
+querry_sql_0015= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0015=0
+a_querry_sql_0015=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0015=" where ea_modify_tm is not null "
+a_and_sql_0015=" and substr(ea_modify_tm@1@10) < "
+union_sql_0015=" union all "
+b_querry_sql_0015=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0015=" where ea_modify_tm is null "
+b_and_sql_0015=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0016=jdbc:mysql://rr-2ze2lesxm2c82t16t.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0016
+port_source_0016=3306
+user_source_0016=bigdata_read
+password_source_0016='om!DvcDd83^XMFWl'
+database_source_0016=trade_order_umgs_0016
+table_source_0016=tb_order_promotion
+
+[target]
+database_target_0016=odata
+table_target_0016=ods_lego_order_tb_order_promotion
+
+database_target_cream_0016=odata_incr
+table_target_cream_0016=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0016=0
+querry_sql_0016= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0016=0
+a_querry_sql_0016=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0016=" where ea_modify_tm is not null "
+a_and_sql_0016=" and substr(ea_modify_tm@1@10) < "
+union_sql_0016=" union all "
+b_querry_sql_0016=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0016=" where ea_modify_tm is null "
+b_and_sql_0016=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0017=jdbc:mysql://rr-2ze2lesxm2c82t16t.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0017
+port_source_0017=3306
+user_source_0017=bigdata_read
+password_source_0017='om!DvcDd83^XMFWl'
+database_source_0017=trade_order_umgs_0017
+table_source_0017=tb_order_promotion
+
+[target]
+database_target_0017=odata
+table_target_0017=ods_lego_order_tb_order_promotion
+
+database_target_cream_0017=odata_incr
+table_target_cream_0017=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0017=0
+querry_sql_0017= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0017=0
+a_querry_sql_0017=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0017=" where ea_modify_tm is not null "
+a_and_sql_0017=" and substr(ea_modify_tm@1@10) < "
+union_sql_0017=" union all "
+b_querry_sql_0017=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0017=" where ea_modify_tm is null "
+b_and_sql_0017=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0018=jdbc:mysql://rr-2ze2lesxm2c82t16t.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0018
+port_source_0018=3306
+user_source_0018=bigdata_read
+password_source_0018='om!DvcDd83^XMFWl'
+database_source_0018=trade_order_umgs_0018
+table_source_0018=tb_order_promotion
+
+[target]
+database_target_0018=odata
+table_target_0018=ods_lego_order_tb_order_promotion
+
+database_target_cream_0018=odata_incr
+table_target_cream_0018=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0018=0
+querry_sql_0018= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0018=0
+a_querry_sql_0018=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0018=" where ea_modify_tm is not null "
+a_and_sql_0018=" and substr(ea_modify_tm@1@10) < "
+union_sql_0018=" union all "
+b_querry_sql_0018=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0018=" where ea_modify_tm is null "
+b_and_sql_0018=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0019=jdbc:mysql://rr-2ze2lesxm2c82t16t.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0019
+port_source_0019=3306
+user_source_0019=bigdata_read
+password_source_0019='om!DvcDd83^XMFWl'
+database_source_0019=trade_order_umgs_0019
+table_source_0019=tb_order_promotion
+
+[target]
+database_target_0019=odata
+table_target_0019=ods_lego_order_tb_order_promotion
+
+database_target_cream_0019=odata_incr
+table_target_cream_0019=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0019=0
+querry_sql_0019= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0019=0
+a_querry_sql_0019=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0019=" where ea_modify_tm is not null "
+a_and_sql_0019=" and substr(ea_modify_tm@1@10) < "
+union_sql_0019=" union all "
+b_querry_sql_0019=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0019=" where ea_modify_tm is null "
+b_and_sql_0019=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0020=jdbc:mysql://rr-2ze2lesxm2c82t16t.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0020
+port_source_0020=3306
+user_source_0020=bigdata_read
+password_source_0020='om!DvcDd83^XMFWl'
+database_source_0020=trade_order_umgs_0020
+table_source_0020=tb_order_promotion
+
+[target]
+database_target_0020=odata
+table_target_0020=ods_lego_order_tb_order_promotion
+
+database_target_cream_0020=odata_incr
+table_target_cream_0020=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0020=0
+querry_sql_0020= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0020=0
+a_querry_sql_0020=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0020=" where ea_modify_tm is not null "
+a_and_sql_0020=" and substr(ea_modify_tm@1@10) < "
+union_sql_0020=" union all "
+b_querry_sql_0020=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0020=" where ea_modify_tm is null "
+b_and_sql_0020=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0021=jdbc:mysql://rr-2ze2lesxm2c82t16t.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0021
+port_source_0021=3306
+user_source_0021=bigdata_read
+password_source_0021='om!DvcDd83^XMFWl'
+database_source_0021=trade_order_umgs_0021
+table_source_0021=tb_order_promotion
+
+[target]
+database_target_0021=odata
+table_target_0021=ods_lego_order_tb_order_promotion
+
+database_target_cream_0021=odata_incr
+table_target_cream_0021=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0021=0
+querry_sql_0021= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0021=0
+a_querry_sql_0021=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0021=" where ea_modify_tm is not null "
+a_and_sql_0021=" and substr(ea_modify_tm@1@10) < "
+union_sql_0021=" union all "
+b_querry_sql_0021=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0021=" where ea_modify_tm is null "
+b_and_sql_0021=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+
+[source]
+
+url_source_0022=jdbc:mysql://rr-2ze2lesxm2c82t16t.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0022
+port_source_0022=3306
+user_source_0022=bigdata_read
+password_source_0022='om!DvcDd83^XMFWl'
+database_source_0022=trade_order_umgs_0022
+table_source_0022=tb_order_promotion
+
+[target]
+database_target_0022=odata
+table_target_0022=ods_lego_order_tb_order_promotion
+
+database_target_cream_0022=odata_incr
+table_target_cream_0022=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0022=0
+querry_sql_0022= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0022=0
+a_querry_sql_0022=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0022=" where ea_modify_tm is not null "
+a_and_sql_0022=" and substr(ea_modify_tm@1@10) < "
+union_sql_0022=" union all "
+b_querry_sql_0022=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0022=" where ea_modify_tm is null "
+b_and_sql_0022=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0023=jdbc:mysql://rr-2ze2lesxm2c82t16t.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0023
+port_source_0023=3306
+user_source_0023=bigdata_read
+password_source_0023='om!DvcDd83^XMFWl'
+database_source_0023=trade_order_umgs_0023
+table_source_0023=tb_order_promotion
+
+[target]
+database_target_0023=odata
+table_target_0023=ods_lego_order_tb_order_promotion
+
+database_target_cream_0023=odata_incr
+table_target_cream_0023=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0023=0
+querry_sql_0023= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0023=0
+a_querry_sql_0023=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0023=" where ea_modify_tm is not null "
+a_and_sql_0023=" and substr(ea_modify_tm@1@10) < "
+union_sql_0023=" union all "
+b_querry_sql_0023=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0023=" where ea_modify_tm is null "
+b_and_sql_0023=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0024=jdbc:mysql://rr-2ze62b51ay6uii0t0.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0024
+port_source_0024=3306
+user_source_0024=bigdata_read
+password_source_0024='om!DvcDd83^XMFWl'
+database_source_0024=trade_order_umgs_0024
+table_source_0024=tb_order_promotion
+
+[target]
+database_target_0024=odata
+table_target_0024=ods_lego_order_tb_order_promotion
+
+database_target_cream_0024=odata_incr
+table_target_cream_0024=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0024=0
+querry_sql_0024= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0024=0
+a_querry_sql_0024=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0024=" where ea_modify_tm is not null "
+a_and_sql_0024=" and substr(ea_modify_tm@1@10) < "
+union_sql_0024=" union all "
+b_querry_sql_0024=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0024=" where ea_modify_tm is null "
+b_and_sql_0024=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0025=jdbc:mysql://rr-2ze62b51ay6uii0t0.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0025
+port_source_0025=3306
+user_source_0025=bigdata_read
+password_source_0025='om!DvcDd83^XMFWl'
+database_source_0025=trade_order_umgs_0025
+table_source_0025=tb_order_promotion
+
+[target]
+database_target_0025=odata
+table_target_0025=ods_lego_order_tb_order_promotion
+
+database_target_cream_0025=odata_incr
+table_target_cream_0025=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0025=0
+querry_sql_0025= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0025=0
+a_querry_sql_0025=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0025=" where ea_modify_tm is not null "
+a_and_sql_0025=" and substr(ea_modify_tm@1@10) < "
+union_sql_0025=" union all "
+b_querry_sql_0025=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0025=" where ea_modify_tm is null "
+b_and_sql_0025=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0026=jdbc:mysql://rr-2ze62b51ay6uii0t0.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0026
+port_source_0026=3306
+user_source_0026=bigdata_read
+password_source_0026='om!DvcDd83^XMFWl'
+database_source_0026=trade_order_umgs_0026
+table_source_0026=tb_order_promotion
+
+[target]
+database_target_0026=odata
+table_target_0026=ods_lego_order_tb_order_promotion
+
+database_target_cream_0026=odata_incr
+table_target_cream_0026=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0026=0
+querry_sql_0026= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0026=0
+a_querry_sql_0026=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0026=" where ea_modify_tm is not null "
+a_and_sql_0026=" and substr(ea_modify_tm@1@10) < "
+union_sql_0026=" union all "
+b_querry_sql_0026=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0026=" where ea_modify_tm is null "
+b_and_sql_0026=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0027=jdbc:mysql://rr-2ze62b51ay6uii0t0.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0027
+port_source_0027=3306
+user_source_0027=bigdata_read
+password_source_0027='om!DvcDd83^XMFWl'
+database_source_0027=trade_order_umgs_0027
+table_source_0027=tb_order_promotion
+
+[target]
+database_target_0027=odata
+table_target_0027=ods_lego_order_tb_order_promotion
+
+database_target_cream_0027=odata_incr
+table_target_cream_0027=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0027=0
+querry_sql_0027= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0027=0
+a_querry_sql_0027=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0027=" where ea_modify_tm is not null "
+a_and_sql_0027=" and substr(ea_modify_tm@1@10) < "
+union_sql_0027=" union all "
+b_querry_sql_0027=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0027=" where ea_modify_tm is null "
+b_and_sql_0027=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0028=jdbc:mysql://rr-2ze62b51ay6uii0t0.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0028
+port_source_0028=3306
+user_source_0028=bigdata_read
+password_source_0028='om!DvcDd83^XMFWl'
+database_source_0028=trade_order_umgs_0028
+table_source_0028=tb_order_promotion
+
+[target]
+database_target_0028=odata
+table_target_0028=ods_lego_order_tb_order_promotion
+
+database_target_cream_0028=odata_incr
+table_target_cream_0028=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0028=0
+querry_sql_0028= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0028=0
+a_querry_sql_0028=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0028=" where ea_modify_tm is not null "
+a_and_sql_0028=" and substr(ea_modify_tm@1@10) < "
+union_sql_0028=" union all "
+b_querry_sql_0028=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0028=" where ea_modify_tm is null "
+b_and_sql_0028=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0029=jdbc:mysql://rr-2ze62b51ay6uii0t0.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0029
+port_source_0029=3306
+user_source_0029=bigdata_read
+password_source_0029='om!DvcDd83^XMFWl'
+database_source_0029=trade_order_umgs_0029
+table_source_0029=tb_order_promotion
+
+[target]
+database_target_0029=odata
+table_target_0029=ods_lego_order_tb_order_promotion
+
+database_target_cream_0029=odata_incr
+table_target_cream_0029=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0029=0
+querry_sql_0029= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0029=0
+a_querry_sql_0029=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0029=" where ea_modify_tm is not null "
+a_and_sql_0029=" and substr(ea_modify_tm@1@10) < "
+union_sql_0029=" union all "
+b_querry_sql_0029=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0029=" where ea_modify_tm is null "
+b_and_sql_0029=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0030=jdbc:mysql://rr-2ze62b51ay6uii0t0.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0030
+port_source_0030=3306
+user_source_0030=bigdata_read
+password_source_0030='om!DvcDd83^XMFWl'
+database_source_0030=trade_order_umgs_0030
+table_source_0030=tb_order_promotion
+
+[target]
+database_target_0030=odata
+table_target_0030=ods_lego_order_tb_order_promotion
+
+database_target_cream_0030=odata_incr
+table_target_cream_0030=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0030=0
+querry_sql_0030= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0030=0
+a_querry_sql_0030=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0030=" where ea_modify_tm is not null "
+a_and_sql_0030=" and substr(ea_modify_tm@1@10) < "
+union_sql_0030=" union all "
+b_querry_sql_0030=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0030=" where ea_modify_tm is null "
+b_and_sql_0030=" and substr(ea_create_tm@1@10) < "
+----------------------------------------
+[source]
+
+url_source_0031=jdbc:mysql://rr-2ze62b51ay6uii0t0.mysql.rds.aliyuncs.com:3306/trade_order_umgs_0031
+port_source_0031=3306
+user_source_0031=bigdata_read
+password_source_0031='om!DvcDd83^XMFWl'
+database_source_0031=trade_order_umgs_0031
+table_source_0031=tb_order_promotion
+
+[target]
+database_target_0031=odata
+table_target_0031=ods_lego_order_tb_order_promotion
+
+database_target_cream_0031=odata_incr
+table_target_cream_0031=s_ips_tb_err_answer
+
+[incream]
+
+incream_flag_0031=0
+querry_sql_0031= "select * from tb_err_answer where substr(create_time@1@10) < "
+
+where ea_modify_tm is not null substr(ea_create_tm,1,10) <
+
+
+[sql]
+sql_complex_flag_0031=0
+a_querry_sql_0031=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+a_where_sql_0031=" where ea_modify_tm is not null "
+a_and_sql_0031=" and substr(ea_modify_tm@1@10) < "
+union_sql_0031=" union all "
+b_querry_sql_0031=" select ea_id@ea_stu_id@ea_qst_id@ea_knlg_id@ea_sa_id@ea_err_cnt@ea_is_fixup@ea_c_id@ea_clazz_id@ea_cl_id@ea_create_tm@ea_modify_tm@ea_detail@ea_is_deleted@ea_lev_id@ea_city_code@ea_year@ea_term_id@ea_grd_id@ea_subj_id@ea_st_id@ea_reinforce_date@ea_reinforce_state@ea_lq_id@ea_knlg_id2@mycat_time from tb_err_answer "
+b_where_sql_0031=" where ea_modify_tm is null "
+b_and_sql_0031=" and substr(ea_create_tm@1@10) < "
+----------------------------------------

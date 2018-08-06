@@ -12,6 +12,8 @@ trait LoadAdjacencyList {
 			.filter(_ != "#增量")
 			.filter(_ != "[source]")
 			.filter(_ != "[target]")
+			.filter(_ != "[incream]")
+			.filter(_ != "[sql]")
 		val dependenciseProperties = lines.map(_.split("="))
 		val dpMap = (for (dp <- dependenciseProperties) yield dp.head -> dp.tail).toMap
 		for ((key, value) <- dpMap) yield (key, value.toList.flatMap(_.split(",")))
@@ -25,7 +27,8 @@ trait LoadAdjacencyList {
 			.filter(_ != "#增量")
 			.filter(_ != "[source]")
 			.filter(_ != "[target]")
-		
+			.filter(_ != "[incream]")
+			.filter(_ != "[sql]")
 		val dependenciseProperties = lines.map(_.split("="))
 		val dpMap = (for (dp <- dependenciseProperties) yield dp.head -> dp.tail).toMap
 		for ((key, value) <- dpMap) yield (key, value.toList.flatMap(_.split(",")))

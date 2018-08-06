@@ -42,7 +42,7 @@ object JobFile extends FileWriteTool {
 				s"""#$fileName
 					 |type=command
 					 |dependencies=$dependenciesFile
-					 |command=/bin/bash ../incream/$fileName.sh"
+					 |command=/bin/bash ../incream/$fileName.sh
 					 |user.to.proxy=hdfs""".stripMargin
 			
 			scalaWriteOverWrite(path)(fileName + ".job")(command_lines)
@@ -51,7 +51,7 @@ object JobFile extends FileWriteTool {
 				s"""#$fileName
 					 |type=command
 					 |dependencies=$dependenciesFile
-					 |command=/bin/bash ../sqoop/$fileName.sh"
+					 |command=/bin/bash ../sqoop/$fileName.sh
 					 |user.to.proxy=hdfs""".stripMargin
 			
 			scalaWriteOverWrite(path)(fileName + ".job")(command_lines)
